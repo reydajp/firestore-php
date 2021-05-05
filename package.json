@@ -1,5 +1,5 @@
 {
-    "name": "@morrislaptop/firestore-php",
+    "name": "ridha/firestore-php",
     "private": true,
     "release": {
         "verifyConditions": [

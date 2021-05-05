@@ -1,5 +1,5 @@
 {
-    "name": "morrislaptop/firestore-php",
+    "name": "ridha/firestore-php",
     "description": "Firestore SDK for PHP without gRPC",
     "keywords": ["firestore", "google", "sdk", "api", "database"],
     "homepage": "https://github.com/morrislaptop/firestore-php",
