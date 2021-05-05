@@ -16,13 +16,19 @@
         "source": "https://github.com/morrislaptop/firestore-php"
     },
     "scripts": {
+        "ins": "composer install --ignore-platform-reqs",
+        "req": "composer require --ignore-platform-reqs",
+        "req-d": "composer require --ignore-platform-reqs --dev",
+        "up": "composer self-update && composer update --ignore-platform-reqs",
+        "autoload": "composer dump-autoload",
         "test": "phpunit"
     },
     "require": {
-        "kreait/firebase-php": "^4.15",
+        "kreait/firebase-php": "^5.18",
         "google/protobuf": "^3.6"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "morrislaptop/var-dumper-with-context": "^0.2.0",
         "symfony/var-dumper": "^4.0",
         "phpunit/phpunit": "^7.1"
